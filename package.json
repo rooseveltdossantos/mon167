@@ -1,0 +1,20 @@
+{
+  "name": "mon167",
+  "version": "1.0.0",
+  "description": "Monitoramento Residência 167",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "monitoramento",
+    "residencia",
+    "167"
+  ],
+  "author": "Roosevelt dos Santos Júnior",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.1",
+    "reload": "*"
+  }
+}
