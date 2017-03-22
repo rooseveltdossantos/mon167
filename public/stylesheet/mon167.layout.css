@@ -1,24 +1,4 @@
-#hor-zebra
-{
-	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
-	font-size: 10px;
-	width: 380px;
-	text-align: left;
-	border-collapse: collapse;
-}
-#hor-zebra th
-{
-	font-size: 11px;
-	font-weight: normal;
-	padding: 8px 6px;
-	color: #039;
-}
-#hor-zebra td
-{
-	padding: 6px;
-	color: #669;
-}
-#hor-zebra .odd
-{
-	background: #e8edff; 
-}
+.swiper-container {
+    width: 1480px;
+    height: 990px;
+}  

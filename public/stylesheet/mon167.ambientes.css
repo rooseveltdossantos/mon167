@@ -91,5 +91,79 @@ body{
 {
     height: 15px;
     width: 70px;
+}
 
+#garagem_01{
+    height: 94px;
+    width: 445px;
+}
+
+#garagem_02{
+    height: 277px;
+    width: 385px;
+}
+
+#banheiro_garagem{
+    height: 178px;
+    width: 85px;
+}
+
+#corredor_garagem{
+    height: 178px;
+    width: 55px;
+}
+
+#escritorio{
+    height: 218px;
+    width: 235px;
+}
+
+#deposito{
+    height: 237px;
+    width: 147px;
+}
+
+#terraco_tecnico{
+    height: 117px;
+    width: 143px;
+}
+
+#maquinas_piscina{
+    height: 77px;
+    width: 143px;
+}
+
+.escada_maquina_piscina_degrau{
+    height: 78px;
+    width: 15px;    
+}
+
+#quarto_miguel{
+    height: 390px;
+    width: 297px;
+}
+
+#banheiro_miguel{
+    height: 297px;
+    width: 137px;
+}
+
+#dormitorio{
+    height: 297px;
+    width: 310px;
+}
+
+#suite{
+    height: 390px;
+    width: 353px;
+}
+
+#entrada_suite{
+    height: 91px;
+    width: 116px;    
+}
+
+#circulacao_dormitorios{
+    height: 91px;
+    width: 627px;
 }
