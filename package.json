@@ -4,7 +4,7 @@
   "description": "Monitoramento Residência 167",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",    
   },
   "keywords": [
     "monitoramento",
@@ -14,9 +14,10 @@
   "author": "Roosevelt dos Santos Júnior",
   "license": "ISC",
   "dependencies": {
+    "Swiper": "^3.4.2",
     "express": "^4.14.1",
+    "forecast": "^0.3.2",
     "rangeslider.js": "^2.3.0",
-    "reload": "*",
-    "Swiper": "^3.4.2"
+    "reload": "*",    
   }
 }

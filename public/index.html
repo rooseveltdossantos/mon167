@@ -9,11 +9,15 @@
     <link rel="stylesheet" href="stylesheet/mon167.layout.css">
     <link rel="stylesheet" href="stylesheet/swiper/swiper.min.css">
     <script src="/reload/reload.js"></script>
-    <script src="/scripts/swiper/swiper.min.js" type="text/javascript"></script>
+    <script src="/scripts/swiper/swiper.min.js" type="text/javascript"></script>    
+    <script src="/scripts/skycons/skycons.js" type="text/javascript"></script>    
   </head>
   <body>
     <div class="swiper-container">
         <div class="swiper-wrapper">
+            <div id="condicao_tempo" class="swiper-slide">
+                <canvas id="icon1" width="128px" height="128px"></canvas>
+            </div>
             <div id="primeiro_pavimento" class="swiper-slide">
                 <div class="pos_0003_0001 ambiente" id="garagem_01"></div> 
                 <div class="pos_0009_0010 ambiente" id="garagem_02"></div> 
@@ -78,13 +82,16 @@
               <div class="pos_0094_0031 ambiente" id="entrada_suite"></div>
             </div>
         </div>
-    </div>
-     <script src="path/to/swiper.min.js"></script>
+    </div>     
      <script>
+        // Inicializar Swiper
         var mySwiper = new Swiper('.swiper-container', {
                 direction: 'vertical',
                 loop: true
             });
-     </script>
+        var skycons = new Skycons();
+        skycons.add("icon1", Skycons.PARTLY_CLOUDY_DAY);
+        skycons.play();
+     </script>         
   </body>
 </html>
