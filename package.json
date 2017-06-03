@@ -4,7 +4,8 @@
   "description": "Monitoramento Residência 167",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",    
+    "babel-version": "babel --version",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "monitoramento",
@@ -18,6 +19,13 @@
     "express": "^4.14.1",
     "forecast": "^0.3.2",
     "rangeslider.js": "^2.3.0",
-    "reload": "*",    
+    "reload": "*",
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "dark-sky-api": "^0.5.28"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.1"
   }
 }

@@ -4,7 +4,6 @@ var reload = require('reload')
 var http = require('http')
 const path = require('path');
 
-
 app.use(express.static('public'))
 app.use('/scripts/skycons', express.static(path.join(__dirname, 'node_modules/skycons')))
 app.use('/scripts/swiper', express.static(path.join(__dirname, 'node_modules/swiper/dist/js')))
