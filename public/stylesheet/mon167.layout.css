@@ -1,4 +1,32 @@
 .swiper-container {
     width: 1480px;
     height: 990px;
-}  
+}
+
+#temperature {
+    font-family: league-gothic, sans-serif;
+    font-size: 110px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: 144px;
+    text-transform: none;
+    color: #000000;
+}
+
+#minTemperature, #maxTemperature{
+    font-family: league-gothic, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: 144px;
+    text-transform: none;
+    color: #000000;
+}
+
+.temperature::after {
+    content: "°";
+    font-size: 60%;
+    position: absolute;    
+}
