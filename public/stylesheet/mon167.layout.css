@@ -3,7 +3,7 @@
     height: 990px;
 }
 
-#temperature {
+#temperature, #relogio {
     font-family: league-gothic, sans-serif;
     font-size: 110px;
     font-style: normal;
@@ -14,7 +14,7 @@
     color: #000000;
 }
 
-#minTemperature, #maxTemperature{
+#minTemperature, #maxTemperature, #dia {
     font-family: league-gothic, sans-serif;
     font-size: 24px;
     font-style: normal;
@@ -25,8 +25,27 @@
     color: #000000;
 }
 
+.item_agenda {
+    font-family: league-gothic, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: 144px;
+    text-transform: none;
+    color: #000000;
+}
+
+
 .temperature::after {
     content: "°";
     font-size: 60%;
     position: absolute;    
+}
+
+#quickBar {
+    background-repeat: repeat-x repeat-y;
+    background-image: url("/images/baseToolbar.png");
+    width:1250px;
+    height: 40px;
 }

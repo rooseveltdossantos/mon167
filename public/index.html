@@ -11,19 +11,36 @@
     <link rel="stylesheet" href="stylesheet/iconmonstr-iconic-font.min.css">
     <script src="/reload/reload.js"></script>
     <script src="/scripts/swiper/swiper.min.js" type="text/javascript"></script>    
-    <script src="/scripts/skycons/skycons.js" type="text/javascript"></script> 
+    <script src="/scripts/skycons/skycons.js" type="text/javascript"></script> <script src="https://jsconsole.com/js/remote.js?aafbcd0b-5282-423e-8e64-9ccd62f5fb7e"></script>
   </head>
   <body>
     <div class="swiper-container">
         <div class="swiper-wrapper">
-            <div id="condicao_tempo" class="swiper-slide">
-                <canvas id="iWeather" width="128px" height="128px"></canvas>
-                <i class="im im-arrow-up pos_0001_0014"></i>
-                <span class="pos_0004_0008 temperature" id="minTemperature"></span>
-                <i class="im im-arrow-down pos_0009_0014"></i>
-                <span class="pos_0012_0008 temperature" id="maxTemperature"></span>
-                <span class="pos_0001_0016 temperature" id="temperature"></span>                                
-            </div>
+            <div id="status_geral" class="swiper-slide">
+                <div id="condicoes_tempo">
+                    <canvas id="iWeather" width="128px" height="128px"></canvas>
+                    <i class="im im-arrow-up pos_0001_0014"></i>
+                    <span class="pos_0004_0008 temperature" id="minTemperature"></span>
+                    <i class="im im-arrow-down pos_0009_0014"></i>
+                    <span class="pos_0012_0008 temperature" id="maxTemperature"></span>
+                    <span class="pos_0001_0016 temperature" id="temperature"></span>
+                    <div  class="pos_0000_0060" id="quickBar"></div>
+                    <i class="pos_0002_0061 im im-home"></i>
+                    <i class="pos_0010_0061 im im-video-camera"></i>
+                </div>
+                <div id="agenda_do_dia">
+                    <span class="pos_0093_0000" id="dia" style="width:250px">SAB, 1 DE JUL</span>
+                    <span class="pos_0092_0008" id="relogio">21:36</span>
+                    <span class="pos_0092_0015 item_agenda" id="agenda_do_dia_00" style="width:450px">07:30 - DIA DO BRINQUEDO</span>
+                    <hr class="pos_0092_0023" style="width:320px;height:1px"></hr>
+                    <span class="pos_0092_0018 item_agenda" id="agenda_do_dia_00" style="width:450px">09:30 - CONSULTA MEDICA</span>
+                    <hr class="pos_0092_0026" style="width:320px;height:1px"></hr>
+                    <span class="pos_0092_0021 item_agenda" id="agenda_do_dia_00" style="width:450px">11:30 - INGLES</span>
+                    <hr class="pos_0092_0029" style="width:320px;height:1px"></hr>
+                    <span class="pos_0092_0024 item_agenda" id="agenda_do_dia_00" style="width:450px">19:00 - PILATES</span>
+                    <hr class="pos_0092_0032" style="width:320px;height:1px"></hr>
+                </div>
+            </div>            
             <div id="primeiro_pavimento" class="swiper-slide">
                 <div class="pos_0003_0001 ambiente" id="garagem_01"></div> 
                 <div class="pos_0009_0010 ambiente" id="garagem_02"></div> 
